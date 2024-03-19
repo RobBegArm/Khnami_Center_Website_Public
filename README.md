@@ -6,4 +6,5 @@ An original website made for "Khnami" palliative care center.Built with React JS
 - Website deployment 
 - Search Engine Optimization
 <br />
-![khnami_preview](https://github.com/RobBegArm/Khnami_Website_Public/assets/101115439/ee3a2a20-004c-4d83-89c7-a0f3c5555f14)
+
+![khnami](https://user-images.githubusercontent.com/101115439/232557740-ce6e1e42-029e-4e74-bcf9-da7f4b15a407.png)
