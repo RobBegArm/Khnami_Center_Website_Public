@@ -1,6 +1,6 @@
 ## [Khnami Palliative Care Center Website](https://khnami-center.com/en)
 
-An original website made for "Khnami" palliative care center.Built with React JS.
+An original website made for "Khnami" palliative care center. Built with React JS.
 - Website design
 - Website structure, styling and responsiveness
 - Website deployment 
