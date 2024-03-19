@@ -1,0 +1,155 @@
+.cta-box {
+  background-color: var(--tint-20);
+  color: var(--shade-80);
+  padding: 3.6rem 4.8rem;
+  border-radius: 6px;
+  gap: 2rem;
+  max-width: 100rem;
+}
+
+.cta-text-box {
+  text-align: center;
+}
+
+.cta-headline {
+  font-size: 4.4rem;
+  font-weight: 700;
+}
+
+.cta-description {
+  margin: 0 auto;
+  max-width: 60rem;
+}
+
+.cta-form {
+  margin: 0 auto;
+}
+
+.cta-form input::placeholder {
+  color: #aaa;
+}
+
+.form-element {
+  display: grid;
+  max-width: 30rem;
+}
+
+.form-element label {
+  font-weight: 700;
+  padding-bottom: 2rem;
+}
+
+.form-element input {
+  padding: 1.2rem;
+  font-size: 1.8rem;
+  border: none;
+  background-color: var(--tint-90);
+  border-radius: 9px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.btn--form-box {
+  grid-column: span 3;
+  display: flex;
+}
+
+.btn--form {
+  margin: 0 auto;
+  border: none;
+  padding: 4rem 8rem;
+  background-color: var(--secondary-shade-20);
+  color: #fff;
+  border-radius: 9px;
+  font-size: 3rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.btn--form:hover,
+.btn--form:active {
+  background-color: var(--secondary-shade-30);
+}
+
+.disabled-input,
+.disabled-input::placeholder {
+  background-color: #bbb !important;
+  color: #bbb !important;
+}
+
+@media (max-width: 84em) {
+  .cta-box {
+    max-width: 84rem;
+  }
+
+  .cta-form {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 4.8rem;
+  }
+
+  .btn--form-box {
+    grid-column: span 2;
+  }
+}
+
+@media (max-width: 53em) {
+  .cta-box {
+    max-width: 52rem;
+  }
+
+  .cta-form {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 2.4rem;
+  }
+
+  .form-element {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .btn--form-box {
+    margin-top: 2.4rem;
+    grid-column: span 1;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 32em) {
+  .cta-form {
+    width: inherit;
+  }
+
+  .cta-box {
+    width: inherit;
+    padding: 2rem;
+  }
+
+  .cta-headline {
+    font-size: 4rem;
+  }
+
+  .cta-headline {
+    font-size: 3rem;
+  }
+
+  .cta-description {
+    font-size: 1.6rem;
+  }
+
+  .btn--form p.language--ru {
+    font-size: 2.2rem !important;
+  }
+
+  .btn--form {
+    padding: 4rem 5rem;
+  }
+}
+
+@media (max-width: 26em) {
+  .cta-headline.language--arm {
+    font-size: 2.4rem;
+  }
+
+  .hero-cta-btn.language--arm {
+    font-size: 2.1rem !important;
+  }
+}

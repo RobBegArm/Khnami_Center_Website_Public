@@ -1,0 +1,184 @@
+.services-box {
+  grid-template-columns: 1fr;
+  text-align: center;
+  row-gap: 1rem;
+  padding: 2rem 1rem;
+  border-radius: 6px;
+}
+
+.services-box-header {
+  font-size: 3rem;
+}
+
+.service {
+  font-size: 2.2rem;
+}
+
+.service p {
+  text-align: left;
+}
+
+.services-main-icon {
+  font-size: 23rem;
+  color: var(--main-color);
+  padding: 2rem 0 4rem 0;
+}
+
+.services-headline,
+.gallery-headline {
+  text-align: center;
+  padding: 2.4rem 2.4rem;
+}
+
+.checkmark-icon {
+  color: var(--main-color);
+  padding: 0 1rem 0 0;
+}
+
+.services--list {
+  padding-left: 1rem;
+  align-items: left;
+}
+
+.service {
+  display: flex;
+  justify-content: left;
+  font-family: "Aleo", serif;
+  align-items: center;
+}
+
+.checkmark-icon {
+  font-size: 3rem;
+}
+
+.additional-info-box {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 3rem;
+  margin: 0 auto;
+}
+
+.info-box {
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: left;
+  row-gap: 3rem;
+  padding: 2rem 4rem;
+  border-radius: 6px;
+  max-width: 90rem;
+  margin: 0 auto;
+}
+
+.additional-info-list li p {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.info-box p,
+.additional-info-list li p {
+  line-height: 1.2;
+}
+
+.info-padded {
+  padding-top: 6rem;
+}
+
+@media (max-width: 84em) {
+  .service {
+    font-size: 2rem;
+  }
+
+  .service p.language--ru {
+    font-size: 2.1rem !important;
+  }
+
+  .service p.language--arm {
+    font-size: 1.8rem !important;
+  }
+}
+
+@media (max-width: 75em) {
+  .service p.language--ru {
+    font-size: 2.2rem !important;
+  }
+
+  .service p.language--arm {
+    font-size: 2.2rem !important;
+  }
+}
+
+@media (max-width: 75em) {
+  .services {
+    grid-template-columns: 1fr;
+  }
+
+  .service {
+    font-size: 2.2rem;
+    margin-left: 7rem;
+  }
+
+  .services-box {
+    min-width: 50rem;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 32em) {
+  .services-box {
+    min-width: 95%;
+  }
+
+  .services-box-header {
+    font-size: 2.5rem;
+  }
+
+  .service {
+    margin-left: 0;
+  }
+
+  .services-headline {
+    padding: 1.2rem;
+  }
+
+  .service p.language--arm {
+    font-size: 2rem !important;
+  }
+
+  .service {
+    margin-left: 2rem;
+  }
+}
+
+@media (max-width: 26em) {
+  .service {
+    font-size: 2rem;
+  }
+
+  .service p.language--arm {
+    font-size: 1.8rem !important;
+  }
+}
+
+@media (max-width: 23em) {
+  .service p.language--arm {
+    font-size: 1.6rem !important;
+  }
+
+  .services-box-header.language--ru {
+    font-size: 2.4rem;
+    font-weight: 600;
+  }
+
+  .service p.language--ru {
+    font-size: 1.9rem !important;
+  }
+
+  .services {
+    padding: 0 1rem;
+  }
+
+  .service {
+    font-size: 1.8rem;
+  }
+}

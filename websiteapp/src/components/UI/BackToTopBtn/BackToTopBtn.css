@@ -1,0 +1,35 @@
+.backToTopBtn {
+  position: fixed;
+  bottom: 2rem;
+  right: 3rem;
+  z-index: 999;
+  border: none;
+  outline: none;
+  background-color: var(--tint-70);
+  color: var(--shade-80);
+  cursor: pointer;
+  padding: 2rem;
+  border-radius: 6px;
+  font-size: 1.6rem;
+  transition: all 0.3 ease-in;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.backToTopBtn:hover,
+.backToTopBtn:active {
+  background-color: var(--tint-60);
+}
+
+@media (max-width: 43em) {
+  .backToTopBtn {
+    padding: 1.5rem;
+    bottom: 1.5rem;
+    right: 2rem;
+  }
+}
+
+@media (max-width: 30em) {
+  .backToTopBtn {
+    bottom: 6.5rem;
+  }
+}

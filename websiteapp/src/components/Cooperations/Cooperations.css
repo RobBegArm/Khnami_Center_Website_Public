@@ -1,0 +1,39 @@
+.section-cooperations {
+  font-family: "Aleo", serif;
+}
+
+.cooperations p {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 2rem 0 3rem 0;
+}
+
+.coop-logo-box {
+  justify-content: space-evenly;
+}
+
+.coop-logo-img {
+  height: 7rem;
+}
+
+@media (max-width: 53em) {
+  .section-cooperations {
+    padding-bottom: 4.8rem;
+  }
+
+  .coop-logo-img {
+    height: 5rem;
+  }
+}
+
+@media (max-width: 32em) {
+  .coop-logo-img {
+    height: 4rem;
+  }
+}
+
+@media (max-width: 26em) {
+  .coop-logo-img {
+    height: 3.5rem;
+  }
+}

@@ -1,0 +1,193 @@
+/* Hero Section */
+
+.section-hero {
+  background-color: var(--tint-90);
+}
+
+.section-hero {
+  padding: 4rem 0 14rem 0;
+}
+
+.hero {
+  max-width: 150rem;
+}
+
+.hero-img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.hero-text-box {
+  text-align: center;
+  row-gap: 4rem;
+  max-width: 55rem;
+}
+
+.hero-description {
+  font-size: 2.4rem;
+  line-height: 1.5;
+  margin: 0 auto;
+  margin-bottom: 4.8rem;
+  max-width: 55rem;
+}
+
+.hero-cta-btn:link,
+.hero-cta-btn:visited {
+  background-color: var(--main-color);
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 500;
+  padding: 3rem 6rem;
+  text-align: center;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.hero-cta-btn:hover,
+.hero-cta-btn:active {
+  background-color: var(--shade-10);
+}
+
+.hero-cta-btn.language--ru {
+  padding: 2rem 4rem;
+}
+
+.heading-primary.language--ru {
+  font-size: 6.2rem;
+}
+
+@media (max-width: 99em) {
+  .hero {
+    max-width: 130rem;
+  }
+
+  .heading-primary.language--arm {
+    font-size: 5.2rem !important;
+  }
+
+  .heading-primary.language--ru {
+    font-size: 5.2rem !important;
+  }
+}
+
+@media (max-width: 84em) {
+  .heading-primary {
+    font-size: 6.2rem;
+  }
+
+  .hero-text-box {
+    row-gap: 0rem;
+  }
+
+  .hero-description {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  .hero-cta-btn:link,
+  .hero-cta-btn:visited {
+    font-size: 2.4rem;
+    padding: 2rem 4rem !important;
+  }
+}
+
+@media (max-width: 61em) {
+  .header--lang-select--armenian {
+    font-size: 2.2rem !important;
+  }
+
+  .header-address-text p.language--ru {
+    font-size: 1.4rem !important;
+  }
+}
+
+@media (max-width: 61em) {
+  .section-hero {
+    padding-top: 1rem;
+    padding-bottom: 13vw;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+    row-gap: 4.6rem;
+  }
+
+  .hero-text-box {
+    max-width: 80rem;
+    margin: 0 auto;
+  }
+
+  .hero-description {
+    max-width: 70rem;
+  }
+}
+
+@media (max-width: 53em) {
+  .heading-primary.language--ru {
+    font-size: 4.4rem !important;
+  }
+
+  .hero-description.language--ru {
+    font-size: 1.6rem;
+  }
+
+  .hero-cta-btn.language--ru {
+    font-size: 2.2rem;
+  }
+
+  .hero-cta-btn {
+    max-width: 70vw;
+  }
+}
+
+@media (max-width: 43em) {
+  .hero-description {
+    font-size: 1.8rem;
+  }
+
+  .heading-primary {
+    font-size: 5.8rem;
+  }
+}
+
+@media (max-width: 32em) {
+  .heading-primary {
+    font-size: 5rem;
+  }
+
+  .heading-primary.language--arm {
+    font-size: 4.4rem !important;
+  }
+
+  .hero-description {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 26em) {
+  .hero-cta-btn:link,
+  .hero-cta-btn:visited {
+    font-size: 2.4rem;
+    padding: 2rem 1rem !important;
+  }
+
+  .heading-primary.language--ru {
+    font-size: 3.6rem !important;
+  }
+
+  .heading-primary.language--arm {
+    font-size: 3.2rem !important;
+  }
+
+  .hero-description.language--ru {
+    font-size: 1.4rem;
+  }
+
+  .heading-primary {
+    font-size: 4.6rem;
+  }
+
+  .hero-description {
+    font-size: 1.4rem;
+  }
+}

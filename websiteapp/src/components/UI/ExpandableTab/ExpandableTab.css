@@ -1,0 +1,59 @@
+.expandable-tab {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-top: 2rem;
+  gap: 2rem;
+}
+
+.expand-button {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0 auto;
+  border: none;
+  outline: none;
+  background-color: var(--tint-70);
+  color: var(--shade-80);
+  cursor: pointer;
+  padding: 2rem;
+  border-radius: 6px;
+  font-size: 1.6rem;
+  transition: all 0.15s linear;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 5px 12px;
+}
+
+.expand-button:hover,
+.expand-button:active {
+  background-color: var(--tint-60);
+  cursor: pointer;
+}
+
+.expand-button p {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.expand-chevron {
+  font-size: 2rem;
+  color: var(--shade-40);
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.dropdown-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.4s ease-out;
+}
+
+.dropdown-content-open {
+  padding: 4rem 0 2rem 0;
+  max-height: 600rem;
+}

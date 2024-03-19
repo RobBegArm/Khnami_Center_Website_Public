@@ -1,0 +1,37 @@
+/* Russian */
+
+/* hero */
+
+.heading-primary.language--ru {
+  font-size: 6.2rem;
+}
+
+.service p.language--ru {
+  font-size: 2.4rem;
+}
+
+/* Armenian */
+
+.heading-primary.language--arm {
+  font-size: 6.4rem;
+}
+
+.hero-description.language--arm {
+  font-weight: 500;
+}
+
+.header-address-text .language--arm {
+  font-size: 2.4rem;
+}
+
+.hero-cta-btn.language--arm {
+  width: 40rem;
+}
+
+.service p.language--arm {
+  font-size: 2rem;
+}
+
+.footer--lang-select--armenian {
+  font-size: 2.4rem;
+}
